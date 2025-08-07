@@ -15,6 +15,7 @@ Job seekers face an overwhelming volume of listings with inconsistent relevance,
 ---
 
 ## Data & Feature Engineering  
+**Download Dataset**: https://www.kaggle.com/datasets/asaniczka/1-3m-linkedin-jobs-and-skills-2024
 - **LinkedIn Postings** (~527K rows): title, company, location, description, URL  
 - **Skill Mappings** (~1.3M rows): standardized tags per posting  
 - **Cleaning**: removed duplicates & non-US locations; parsed “city, state”; standardized text  
@@ -52,7 +53,3 @@ Job seekers face an overwhelming volume of listings with inconsistent relevance,
 - Deploy as a scalable REST API on AWS/GCP  
 - Expand beyond US jobs to global markets and multi-language support  
 
----
-
-## 📄 License  
-Released under the **MIT License**. See `LICENSE` for details.  
