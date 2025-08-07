@@ -9,7 +9,7 @@ Job seekers face an overwhelming volume of listings with inconsistent relevance,
 1. **Extracting & Normalizing Skills** from user input  
 2. **Vectorizing** job titles & descriptions with TF-IDF  
 3. **Clustering** jobs via Truncated SVD + K-Means to reveal macro-segments  
-4. **Training** an SVM classifier (76% accuracy, AUC 0.83) to rank the best matches  
+4. **Training** an SVM classifier to rank the best matches  
 5. **Serving** real-time recommendations through a lightweight Flask interface
 
 ---
